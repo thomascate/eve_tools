@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 """
-An example consumer that uses a greenlet pool to accept incoming market
-messages. This example offers a high degree of concurrency.
+This app consumes the eve market feed and then inserts all buy/sell orders in the Jita system into MySQL
 """
 import zlib
 import simplejson
