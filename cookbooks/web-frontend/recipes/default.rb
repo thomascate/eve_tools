@@ -16,8 +16,14 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
+include_recipe "cloud_monitoring"
+include_recipe "cloud_monitoring::agent"
+include_recipe "web-frontend::monitoring"
+
 include_recipe "users"
 
 users_manage "admin" do
   group_name "admin"
 end
+
+
