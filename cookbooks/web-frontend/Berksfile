@@ -1,0 +1,13 @@
+site :opscode
+
+cookbook "cloud_monitoring", git: "https://github.com/rackspace-cookbooks/cookbook-cloudmonitoring", branch: "fog-library"
+cookbook "apache2", git: "https://github.com/rackspace-cookbooks/apache2"
+cookbook "rackspacecloud", git: "https://github.com/rackspace-cookbooks/rackspacecloud"
+cookbook "motd-tail", git: "https://github.com/rackspace-cookbooks/motd-tail"
+cookbook "users", git: "https://github.com/rackspace-cookbooks/users"
+cookbook "chef-client", git: "https://github.com/rackspace-cookbooks/chef-client"
+cookbook "apt", git: "https://github.com/rackspace-cookbooks/apt"
+cookbook "xml", git: "https://github.com/rackspace-cookbooks/xml"
+
+
+metadata
